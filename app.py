@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    hetgetal = 25
+    hetgetal = 15
     if hetgetal < 20:
         return "<p>Hello, Wereld!"+str(hetgetal)+", echt we nieuwe spullen</p>"
     else:
