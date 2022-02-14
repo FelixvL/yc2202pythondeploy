@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello_world():
     hetgetal = 25
     if hetgetal < 20:
-        return "<p>Hello, World!"+str(hetgetal)+"</p>"
+        return "<p>Hello, Wereld!"+str(hetgetal)+", echt we nieuwe spullen</p>"
     else:
         return "het is groter dan 20"
 
